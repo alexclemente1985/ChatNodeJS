@@ -12,7 +12,7 @@ app.use(express.static('./public'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressValidator());
 
-consign({cwd: process.cwd()}).include('routes').then('controllers').into(app);
+consign({cwd: process.cwd()+'/app'}).include('routes').then('controllers').into(app);
 
 
 module.exports = app;
