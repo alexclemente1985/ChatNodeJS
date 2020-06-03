@@ -1,7 +1,6 @@
 {
   "name": "multiroomChat",
   "version": "1.0.7",
-  //"main": "index.js",
   "author": "Alexandre",
   "license": "MIT",
   "scripts": {
